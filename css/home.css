@@ -1,0 +1,19 @@
+.Mid_Base{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: center;
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+    background-color: orange;   
+}
+.Midden_Base{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200px;
+    width: 50%;
+    background-color: green;  
+}
