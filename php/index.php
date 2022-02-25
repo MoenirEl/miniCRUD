@@ -16,11 +16,11 @@
             <div class="Dropdown">
                 <button class="dropbtn">restaurant</button>
                 <div class="dropdown_content">
-                  <a href="cafetaria.html">cafetaria</a>
-                  <a href="pizzeria.html">pizzaeria</a>
-                  <a href="sushi.html">sushi</a>
-                  <a href="thais.html">thais</a>
-                  <a href="index.html">home</a>
+                  <a href="php/cafetaria.html">cafetaria</a>
+                  <a href="php/pizzeria.html">pizzaeria</a>
+                  <a href="php/sushi.html">sushi</a>
+                  <a href="php/thais.html">thais</a>
+                  <a href="php/index.html">home</a>
                 </div>
               </div>
 
