@@ -2,18 +2,42 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-self: flex-start;
     align-items: center;
-    margin-top: 80px;
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color: orange;   
+    position: relative;
+    top: -235px;
+
 }
 .Midden_Base{
+    position: relative;
+    left: 520px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     height: 200px;
-    width: 50%;
+    width: 30%;
     background-color: green;  
+
+}
+.kleine_tekst{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Anton';
+
+}
+.grote_tekst{
+    font-size: 40px;
+    margin-left: 100px;
+    font-family: 'Anton';
+}
+.aparte_tekst{
+    font-size: 40px;
+    margin-left: 150px;
+    font-family: 'Anton';
+
+}
+.img_achtergrond{
+     
 }
