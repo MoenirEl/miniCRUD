@@ -40,4 +40,13 @@
 }
 .img_achtergrond{
      
+.img{
+    background-image: url("../img/eten_achtergrond.jpg");
+    width: ;
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
