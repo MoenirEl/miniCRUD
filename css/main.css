@@ -3,7 +3,6 @@
     padding: 0;
   }
 .Main_Base{
-    background-image: url('..\img\eten_achtergrond.jpg');
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

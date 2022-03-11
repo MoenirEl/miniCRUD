@@ -4,10 +4,11 @@
     flex-direction: row;
     align-items: center;
     height: 250px;
-    width: 100%;
-    background-color: orange;   
+    width: 90%;
+    background-color: blue;   
     position: relative;
-    top: -235px;
+    top: 100px;
+    
 
 }
 .Midden_Base{
@@ -38,11 +39,10 @@
     font-family: 'Anton';
 
 }
-.img_achtergrond{
-     
+
 .img{
     background-image: url("../img/eten_achtergrond.jpg");
-    width: ;
+    width:200px ;
     min-height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     background-attachment: fixed;

@@ -13,6 +13,7 @@
 
 </head>
 <body>
+    
     <div class="Main_Base">
         <div class="Top_Bar">
             <img class="icon" src="img/fork.png" >
@@ -20,27 +21,32 @@
             <div class="Dropdown">
                 <button class="dropbtn">restaurant</button>
                 <div class="dropdown_content">
-                  <a href="cafetaria.php">cafetaria</a>
-                  <a href="pizzeria.php">pizzaeria</a>
-                  <a href="sushi.php">sushi</a>
-                  <a href="thais.php">thais</a>
-                  <a href="index.php">home</a>
+                    <a href="cafetaria.php">cafetaria</a>
+                    <a href="pizzeria.php">pizzaeria</a>
+                    <a href="sushi.php">sushi</a>
+                    <a href="thais.php">thais</a>
+                    <a href="index.php">home</a>
                 </div>
-              </div>
-
-        </div>
-        <div class="Mid_Base">
-            <div class="Midden_Base" >
-                <h1 class="grote_tekst" >Tijd om eten te</h1>
-                <h1 class="aparte_tekst" > bestellen </h1>
-                <p class="kleine_tekst" >we hebben nou 4 nieuwe restaurants! </p>
-                    
             </div>
-     </div>
-     
-
-
-    </div>
     
-</body>
-</html>
+                
+        </div>
+       
+
+            <div class="Mid_Base">
+                <div class="Midden_Base" >
+                    <h1 class="grote_tekst" >Tijd om eten te</h1>
+                    <h1 class="aparte_tekst" > bestellen </h1>
+                    <p class="kleine_tekst" >we hebben nou 4 nieuwe restaurants! </p>
+                    
+                </div>
+            </div>
+            
+       
+            <div class="img"></div>
+            
+        </div>
+    
+        
+    </body>
+    </html>
