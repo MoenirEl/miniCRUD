@@ -10,21 +10,10 @@
 </head>
 
 <body>
-    <div class="Main_Base">
-        <div class="Top_Bar">
-            <img class="icon" src="img/fork.png">
-            <h2>thuisbezorgd.nl </h2>
-            <div class="Dropdown">
-                <button class="dropbtn">restaurant</button>
-                <div class="dropdown_content">
-                    <a href="index.php">Home</a>
-                    <a href="inloggen.php">Log in</a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
+    <?php
+    include_once 'nav.php';
+    ?>
 </body>
+
 
 </html>
