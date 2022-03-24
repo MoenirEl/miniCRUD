@@ -3,17 +3,7 @@
   padding: 0;
 }
 
-.Main_Base {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: baseline;
-  height: 2000px;
-  width: 100%;
-  background-color: orange;
 
-}
 
 .Top_Bar {
   display: flex;
@@ -41,7 +31,7 @@ h2 {
   left: 50px;
 }
 
-.dropbtn {
+/*.dropbtn {
   position: absolute;
   right: 10px;
   margin-top: 10px;
