@@ -31,7 +31,6 @@
             <h2 class="middel_tekst"> voor extra bonusen!</h2>
             
             <ul class="lijst">
-                
                 <li class="space">
                     Voor de eerste keer 20% korting
                 </li>
@@ -41,18 +40,15 @@
                 <li>
                     We geven aanraders voor langere blijvende klanten
                 </li>
-
             </ul>
-
             <button class="log_in"> log in of register</button>
-
-
         </div>
-        <div class="col-2">
-            <img class="" src="img/noedels.jpg" alt="">
-            <h1 class="grote_tekst2">een nieuw sushi restaurant!</h1>
-            
 
+        <div class="col-2">
+            <div class="noedels">
+                <img  src="img/noedels.jpg" alt="">
+                <h1 class="grote_tekst2">een nieuw sushi restaurant!</h1>
+            </div>
 
         </div>
 

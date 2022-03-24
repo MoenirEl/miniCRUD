@@ -20,7 +20,6 @@
             <a href="index.php">home</a>
             <a href="inloggen.php">login</a>
             <a href="sushi.php">menu</a>
-            
         </nav>
     </header>
 </body>
