@@ -1,5 +1,5 @@
 <?php
-    require_once 'PDO.php';
+require_once 'PDO.php';
 ?>
 
 
@@ -23,39 +23,47 @@
     <?php
     include_once 'nav.php';
     ?>
+    <div>
 
-    <div class="restaurant">
-        <div class="col-2">
-            <h1 class="grote_tekst2">Log in of register </h1>
+        <div class="restaurant">
+            <div class="col-2">
+                <div id="login">
+                    <h1 class="login_welkom">Log in of register </h1>
 
-            <h2 class="middel_tekst"> voor extra bonusen!</h2>
-            
-            <ul class="lijst">
-                <li class="space">
-                    Voor de eerste keer 20% korting
-                </li>
-                <li>
-                    Als u vaak bestelt op de zelfde account 5% korting
-                </li>
-                <li>
-                    We geven aanraders voor langere blijvende klanten
-                </li>
-            </ul>
-            <button class="log_in"> log in of register</button>
-        </div>
+                    <h2 class="middel_tekst"> voor extra bonusen!</h2>
 
-        <div class="col-2">
-            <div class="noedels">
-                <img  src="img/noedels.jpg" alt="">
-                <h1 class="grote_tekst2">een nieuw sushi restaurant!</h1>
+                    <ul class="lijst">
+                        <li class="space">
+                            Voor de eerste keer 20% korting
+                        </li>
+                        <li>
+                            Als u vaak bestelt op de zelfde account 5% korting
+                        </li>
+                        <li>
+                            We geven aanraders voor langere blijvende klanten
+                        </li>
+                    </ul>
+                    <button onclick="document.location='inloggen.php'" class="button login"> log in of register</button>
+                </div>
             </div>
 
-        </div>
+            <div class="col-2">
+                <div class="noedels">
+                    <h1 class="menu_welkom">Bekijk onze nieuwe menukaart!</h1>
+                    <button onclick="document.location='sushi.php'" class="button menu">menukaart</button>
+                </div>
 
+            </div>
+
+
+
+
+        </div>
     </div>
-    </div>
+
 
 
 </body>
+
 
 </html>

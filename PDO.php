@@ -16,7 +16,7 @@ $opt= [
 try
 {
     $connect= new PDO($dsn, $user, $pass, $opt);
-    echo "Verbinding is gemaakt. ";
+    
 }
 catch (PDOException $e )
 {

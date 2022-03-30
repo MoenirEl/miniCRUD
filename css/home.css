@@ -5,9 +5,9 @@
   font-family: "Anton";
 }
 
-.grote_tekst {
+.login_welkom {
   font-size: 40px;
-  margin-left: 100px;
+  margin-left: 60px;
   font-family: "Anton";
 }
 
@@ -17,11 +17,12 @@
   font-family: "Anton";
 }
 
-.grote_tekst2 {
+.menu_welkom{
   font-size: 40px;
   font-family: "Anton";
   position: relative;
   left: 65px;
+  top: 0px;
 }
 
 .middel_tekst {
@@ -43,11 +44,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  height: 500px;
-  width: 100%;
-  background-color: blue;
-  position: relative;
-  top: 0px;
+  height: 600px;
+  width: 100%;  
+  background-color: white;
+
+
+
 }
 .col-2 {
   display: flex;
@@ -56,29 +58,73 @@
   height: 350px;
   width: 400px;
   background-color: white;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 8px;
   padding: 5px;
 
 }
 
 
-.log_in {
+.button {
   border-radius: 25% 10%;
   position: relative;
   left: 100px;
   top: 50px;
   height: 50px;
   width: 200px;
-
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .noedels{
   background-image: url("../img/noedels.jpg");
-  width: 200px;
+  width: 400px;
   height: 350px;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: lightgoldenrodyellow;
+  background-color: ;
 }
+#login{
+  background-image: url("../img/login_img.jpg");
+  width: 400px;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: lightblue;
+}
+
+
+.login {
+  background-color: white; 
+  color: black; 
+  border: 2px solid beige;
+}
+
+.login:hover {
+  background-color: beige;
+  color: lightblue;
+}
+
+.menu {
+  background-color: lightgoldenrodyellow; 
+  color: black; 
+  border: 2px solid lightsalmon;
+}
+
+.menu:hover {
+  background-color: lightsalmon;
+  color: white;
+}
+
