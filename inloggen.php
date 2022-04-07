@@ -11,6 +11,24 @@
 </head>
 
 <body>
+<?php 
+include_once "PDO.php";
+
+$sql = "SELECT * FROM admin WHERE username = :username AND password = :password";
+$stmt = $connect->prepare($sql);
+$stmt->bindParam(":username", $_POST['username']);
+$stmt->bindParam(":password", $_POST['password']);
+$stmt->execute();
+$result = $stmt->fetchAll();
+// var_dump($result);
+if(count($result) > 0){
+    echo "username gevonden";
+} else {
+    // echo "username niet gevonden";
+}
+//var_dump($_POST);
+ 
+?>
 
 <div class="container">
     <input type="checkbox" id="flip">
@@ -38,15 +56,15 @@
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Enter your email" required>
+                <input type="text" name="username" placeholder="Enter your username" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Enter your password" required>
+                <input type="text" name="password" placeholder="Enter your password" required>
               </div>
               <div class="text"><a href="#">Forgot password?</a></div>
               <div class="button input-box">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Login">
               </div>
               <div class="text sign-up-text">Don't have an account? <label for="flip">Signup now</label></div>
             </div>

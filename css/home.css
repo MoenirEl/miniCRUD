@@ -43,14 +43,14 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
+  background-color: rgb(217, 233, 208);
+  width: 100%;
   height: 600px;
-  width: 100%;  
-  background-color: white;
-
-
 
 }
+
+
 .col-2 {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +92,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: lightgoldenrodyellow;
-  background-color: ;
 }
 #login{
   background-image: url("../img/login_img.jpg");

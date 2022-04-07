@@ -24,7 +24,7 @@ nav a {
 .img {
     background-image: url("../img/sushi.jpg");
     width: 100%;
-    min-height: 1000px;
+    min-height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,4 +39,16 @@ nav a {
       
 
   }
-  
+  .head_blok{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(255,255,255,.50);
+      color: rgba(0,0,0,.75);;
+      position: relative;
+      left: 50%;
+      height: 600px;
+      width: 50%;
+      font-size: 25px;
+  }
