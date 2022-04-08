@@ -53,8 +53,8 @@
 
 .col-2 {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-wrap: no-wrap;
+  flex-direction: row;
   height: 350px;
   width: 400px;
   background-color: white;
