@@ -2,9 +2,7 @@
 
 
 
-$sql = "select" * FROM aldum;
-$stmt =$connect-> prepare($sql);
-$stmt ->fetchall();
+
 header (location: index.php);
 foreach ($result as $record)
 {

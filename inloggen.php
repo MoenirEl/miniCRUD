@@ -15,7 +15,7 @@
 include_once "PDO.php";
 
 $sql = "SELECT * FROM admin WHERE username = :username AND password = :password";
-$stmt = $connect->prepare($sql);
+$stmt = $conn->prepare($sql);
 $stmt->bindParam(":username", $_POST['username']);
 $stmt->bindParam(":password", $_POST['password']);
 $stmt->execute();
@@ -52,7 +52,7 @@ if(count($result) > 0){
         <div class="form-content">
           <div class="login-form">
             <div class="title">Login</div>
-          <form action="#">
+          <form action="admin.php" method="post">
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-envelope"></i>

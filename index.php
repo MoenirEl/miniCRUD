@@ -54,7 +54,7 @@ require_once 'PDO.php';
             <div class="col-2">
                 <div class="noedels">
                     <h1 class="menu_welkom">Bekijk onze nieuwe menukaart!</h1>
-                    <button onclick="document.location='sushi.php'" class="button menu">menukaart</button>
+                    <button onclick="document.location='keuze.php'" class="button menu">menukaart</button>
                 </div>
             </div>
         </div>

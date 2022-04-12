@@ -11,10 +11,10 @@
 }
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
-    height: 150px;
-    width: 200px;
+    height: 350px;
+    width: 400px;
     background-color: white;
     border: 1px solid;
     border-radius: 8px;
@@ -22,8 +22,10 @@
   
   }
   .menu_kaarten{
-    width: 200px;
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +48,21 @@
   }
   .pla{
     background-image: url("../img/Pla\ Muek\ Yang.jpg");
+  }
+
+  .button_menu{
+    border-radius: 25% 10%;
+    position: relative;
+    height: 75px;
+    width: 100px;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
