@@ -24,7 +24,7 @@ $stmt->bindParam(":prijs", $_POST['prijs']);
 $stmt->bindParam(":voorraad", $_POST['voorraad']);
 $stmt->execute();
 $stmt->debugDumpParams();
-//header("Location: admin.php")
+header("Location: admin.php")
 
 
 
@@ -39,7 +39,7 @@ $stmt->debugDumpParams();
     Prijs<input type="text" name="prijs" id=""><br/>
     voorraad<input type="text" name="voorraad" id=""><br/>
     naam<input type="text" name="naam" id=""><br/>
-    <input type="submit" value="teovoegen" >
+    <button onclick="document.location='admin.php'">toevoegen</button>
 </form>
 
 

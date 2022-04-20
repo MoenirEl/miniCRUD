@@ -1,0 +1,15 @@
+table, th, td{
+    border: 1px solid;
+}
+table{
+    position: relative;
+    top: left;
+}
+.tablebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+}
