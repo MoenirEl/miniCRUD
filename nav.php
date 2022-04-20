@@ -19,7 +19,7 @@
             <img src="img/fork.png" alt="">
             <a href="index.php">home</a>
             <a href="inloggen.php">login</a>
-            <a href="keuze.php">menu</a>
+            <a href="menukaart.php">menu</a>
         </nav>
     
 </body>

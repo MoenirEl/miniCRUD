@@ -40,9 +40,6 @@ foreach ($result as $re) { ?>
         <td><?php echo $re["Naam"]; ?></td>
         <td><?php echo $re["Prijs"]; ?></td>
         <td><?php echo $re["voorraad"]; ?></td>
-        <td>
-
-        </td>
     </tr>
 
 <?php
