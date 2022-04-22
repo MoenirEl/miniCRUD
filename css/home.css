@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 .kleine_tekst {
   margin-left: 100px;
@@ -17,7 +22,7 @@
   font-family: "Anton";
 }
 
-.menu_welkom{
+.menu_welkom {
   font-size: 40px;
   font-family: "Anton";
   position: relative;
@@ -31,6 +36,7 @@
   position: relative;
   left: 65px;
 }
+
 .lijst {
   position: relative;
   left: 20px;
@@ -43,13 +49,12 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   background-color: rgb(217, 233, 208);
   width: 100%;
   height: 600px;
 
 }
-
 
 .col-2 {
   display: flex;
@@ -61,15 +66,13 @@
   border: 1px solid;
   border-radius: 8px;
   padding: 5px;
-
 }
-
 
 .button {
   border-radius: 25% 10%;
   position: relative;
   left: 100px;
-  top: 50px;
+  top: 100px;
   height: 50px;
   width: 200px;
   border: none;
@@ -84,7 +87,7 @@
   cursor: pointer;
 }
 
-.noedels{
+.noedels {
   background-image: url("../img/noedels.jpg");
   width: 400px;
   height: 350px;
@@ -93,7 +96,8 @@
   background-size: cover;
   color: lightgoldenrodyellow;
 }
-#login{
+
+#login {
   background-image: url("../img/login_img.jpg");
   width: 400px;
   height: 350px;
@@ -106,8 +110,8 @@
 
 
 .login {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid beige;
 }
 
@@ -117,8 +121,8 @@
 }
 
 .menu {
-  background-color: lightgoldenrodyellow; 
-  color: black; 
+  background-color: lightgoldenrodyellow;
+  color: black;
   border: 2px solid lightsalmon;
 }
 
@@ -127,3 +131,22 @@
   color: white;
 }
 
+@media only screen and (max-width: 400px) {
+  .restaurant {
+    height: 300px;
+    width: 100%;
+  }
+
+  #login,
+  .noedels {
+    width: 100%;
+
+  }
+
+  .login_welkom,
+  .menu_welkom {
+    font-size: 25px;
+
+  }
+
+}

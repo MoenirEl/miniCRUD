@@ -13,5 +13,4 @@ $sql = "DELETE FROM products WHERE id=:id;
 $stmt = $conn ->prepare($sql);
 $stmt->bindParam(':id', $_GET['id']);
 $stmt->execute();
-header("Location: admin.php")
-?>
+header("Location: admin.php");

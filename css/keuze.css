@@ -1,68 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-.containter{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
-.row {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: row;
-    height: 350px;
-    width: 400px;
-    background-color: white;
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 5px;
-  
-  }
-  .menu_kaarten{
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-  }
-  .wok{
-    background-image: url("../img/wokken.jpg");
-  }
-  .shushi{
-    background-image: url("../img/sushis.jpg");
-  }
-  .dumplings{
-    background-image: url("../img/dumplings.jpg");
-  }
-  .loempia{
-    background-image: url("../img/loempia.jpg");
-  }
-  .pollo{
-    background-image: url("../img/pollo\ en\ agridulce.jpg");
-  }
-  .pla{
-    background-image: url("../img/Pla\ Muek\ Yang.jpg");
-  }
 
-  .button_menu{
-    border-radius: 25% 10%;
-    position: relative;
-    height: 75px;
-    width: 100px;
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
+.containter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  height: 350px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 5px;
+
+}
+
+.menu_kaarten {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.wok {
+  background-image: url("../img/wokken.jpg");
+}
+
+.shushi {
+  background-image: url("../img/sushis.jpg");
+}
+
+.dumplings {
+  background-image: url("../img/dumplings.jpg");
+}
+
+.loempia {
+  background-image: url("../img/loempia.jpg");
+}
+
+.pollo {
+  background-image: url("../img/pollo\ en\ agridulce.jpg");
+}
+
+.pla {
+  background-image: url("../img/Pla\ Muek\ Yang.jpg");
+}
+
+.button_menu {
+  border-radius: 25% 10%;
+  position: relative;
+  height: 75px;
+  width: 100px;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}

@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    
-        <nav>
-            <img src="img/fork.png" alt="">
-            <a href="index.php">home</a>
-            <a href="inloggen.php">login</a>
-            <a href="menukaart.php">menu</a>
-        </nav>
-    
+
+    <nav>
+        <img src="img/fork.png" alt="">
+        <a href="index.php">home</a>
+        <a href="inloggen.php">login</a>
+        <a href="menukaart.php">menu</a>
+    </nav>
+
 </body>
 
 
